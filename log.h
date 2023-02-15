@@ -11,8 +11,9 @@ public:
     enum Level { Warning, Error, Info };
 
     static std::ostream& GetStream() { return std::cout; }
-    static bool IsLevelActive(Level l) { return true; }
+    static bool IsLevelActive() { return true; }
 };
+
 
 #ifdef LOG
 #define LOG_ERROR(M)   do { if (Log::IsLevelActive(Log::Error))   (Log::GetStream() <<"[ERROR]: " << M << "\n"); } while (false)
