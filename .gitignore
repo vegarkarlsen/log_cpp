@@ -1,0 +1,10 @@
+**/subprojects
+**/.vscode
+**/meson.build
+**/builddir
+**/handin.zip
+**/test
+**/main.exe
+**/debug
+log_cpp
+main.cpp
