@@ -1,5 +1,5 @@
 
-#include "log.h"
+#include "log_t.h"
 
 
 std::ostream& operator <<(std::ostream& os, const TimeStamp& t){

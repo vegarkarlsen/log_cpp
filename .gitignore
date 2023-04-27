@@ -1,0 +1,5 @@
+.vscode
+builddir
+subprojects
+meson.build
+main.cpp
